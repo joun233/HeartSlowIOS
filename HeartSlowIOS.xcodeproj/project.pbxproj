@@ -16,11 +16,11 @@
 		181485B4251B8FFD00FBD4C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 181485B3251B8FFD00FBD4C6 /* main.m */; };
 		181485BE251B8FFE00FBD4C6 /* HeartSlowIOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 181485BD251B8FFE00FBD4C6 /* HeartSlowIOSTests.m */; };
 		181485C9251B8FFE00FBD4C6 /* HeartSlowIOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 181485C8251B8FFE00FBD4C6 /* HeartSlowIOSUITests.m */; };
-		CAE98FAC251E158D005C53E9 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE98FAB251E158D005C53E9 /* HomeViewController.m */; };
+		CAE98FAC251E158D005C53E9 /* HSHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE98FAB251E158D005C53E9 /* HSHomeViewController.m */; };
 		CAE98FB7251E1923005C53E9 /* icon.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CAE98FB6251E1923005C53E9 /* icon.bundle */; };
-		CAE98FBE251E1D78005C53E9 /* FindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE98FBD251E1D78005C53E9 /* FindViewController.m */; };
-		CAE98FC5251E1DAA005C53E9 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE98FC4251E1DAA005C53E9 /* ChatViewController.m */; };
-		CAE98FCF251E1DF1005C53E9 /* PersonalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE98FCE251E1DF1005C53E9 /* PersonalViewController.m */; };
+		CAE98FBE251E1D78005C53E9 /* HSFindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE98FBD251E1D78005C53E9 /* HSFindViewController.m */; };
+		CAE98FC5251E1DAA005C53E9 /* HSChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE98FC4251E1DAA005C53E9 /* HSChatViewController.m */; };
+		CAE98FCF251E1DF1005C53E9 /* HSPersonalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE98FCE251E1DF1005C53E9 /* HSPersonalViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,15 +59,15 @@
 		181485C4251B8FFE00FBD4C6 /* HeartSlowIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeartSlowIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		181485C8251B8FFE00FBD4C6 /* HeartSlowIOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeartSlowIOSUITests.m; sourceTree = "<group>"; };
 		181485CA251B8FFE00FBD4C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CAE98FAA251E158D005C53E9 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
-		CAE98FAB251E158D005C53E9 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		CAE98FAA251E158D005C53E9 /* HSHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSHomeViewController.h; sourceTree = "<group>"; };
+		CAE98FAB251E158D005C53E9 /* HSHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSHomeViewController.m; sourceTree = "<group>"; };
 		CAE98FB6251E1923005C53E9 /* icon.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = icon.bundle; sourceTree = "<group>"; };
-		CAE98FBC251E1D78005C53E9 /* FindViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FindViewController.h; sourceTree = "<group>"; };
-		CAE98FBD251E1D78005C53E9 /* FindViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindViewController.m; sourceTree = "<group>"; };
-		CAE98FC3251E1DAA005C53E9 /* ChatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
-		CAE98FC4251E1DAA005C53E9 /* ChatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
-		CAE98FCD251E1DF1005C53E9 /* PersonalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonalViewController.h; sourceTree = "<group>"; };
-		CAE98FCE251E1DF1005C53E9 /* PersonalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonalViewController.m; sourceTree = "<group>"; };
+		CAE98FBC251E1D78005C53E9 /* HSFindViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSFindViewController.h; sourceTree = "<group>"; };
+		CAE98FBD251E1D78005C53E9 /* HSFindViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSFindViewController.m; sourceTree = "<group>"; };
+		CAE98FC3251E1DAA005C53E9 /* HSChatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSChatViewController.h; sourceTree = "<group>"; };
+		CAE98FC4251E1DAA005C53E9 /* HSChatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSChatViewController.m; sourceTree = "<group>"; };
+		CAE98FCD251E1DF1005C53E9 /* HSPersonalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSPersonalViewController.h; sourceTree = "<group>"; };
+		CAE98FCE251E1DF1005C53E9 /* HSPersonalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSPersonalViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,8 +183,8 @@
 		CAE98FA9251E14FE005C53E9 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				CAE98FAA251E158D005C53E9 /* HomeViewController.h */,
-				CAE98FAB251E158D005C53E9 /* HomeViewController.m */,
+				CAE98FAA251E158D005C53E9 /* HSHomeViewController.h */,
+				CAE98FAB251E158D005C53E9 /* HSHomeViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -192,8 +192,8 @@
 		CAE98FBB251E1D55005C53E9 /* FindController */ = {
 			isa = PBXGroup;
 			children = (
-				CAE98FBC251E1D78005C53E9 /* FindViewController.h */,
-				CAE98FBD251E1D78005C53E9 /* FindViewController.m */,
+				CAE98FBC251E1D78005C53E9 /* HSFindViewController.h */,
+				CAE98FBD251E1D78005C53E9 /* HSFindViewController.m */,
 			);
 			path = FindController;
 			sourceTree = "<group>";
@@ -201,8 +201,8 @@
 		CAE98FC2251E1D94005C53E9 /* ChatController */ = {
 			isa = PBXGroup;
 			children = (
-				CAE98FC3251E1DAA005C53E9 /* ChatViewController.h */,
-				CAE98FC4251E1DAA005C53E9 /* ChatViewController.m */,
+				CAE98FC3251E1DAA005C53E9 /* HSChatViewController.h */,
+				CAE98FC4251E1DAA005C53E9 /* HSChatViewController.m */,
 			);
 			path = ChatController;
 			sourceTree = "<group>";
@@ -210,8 +210,8 @@
 		CAE98FCC251E1DBA005C53E9 /* PersonalController */ = {
 			isa = PBXGroup;
 			children = (
-				CAE98FCD251E1DF1005C53E9 /* PersonalViewController.h */,
-				CAE98FCE251E1DF1005C53E9 /* PersonalViewController.m */,
+				CAE98FCD251E1DF1005C53E9 /* HSPersonalViewController.h */,
+				CAE98FCE251E1DF1005C53E9 /* HSPersonalViewController.m */,
 			);
 			path = PersonalController;
 			sourceTree = "<group>";
@@ -347,13 +347,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAE98FAC251E158D005C53E9 /* HomeViewController.m in Sources */,
+				CAE98FAC251E158D005C53E9 /* HSHomeViewController.m in Sources */,
 				181485A9251B8FFB00FBD4C6 /* ViewController.m in Sources */,
 				181485A3251B8FFB00FBD4C6 /* AppDelegate.m in Sources */,
-				CAE98FBE251E1D78005C53E9 /* FindViewController.m in Sources */,
+				CAE98FBE251E1D78005C53E9 /* HSFindViewController.m in Sources */,
 				181485B4251B8FFD00FBD4C6 /* main.m in Sources */,
-				CAE98FC5251E1DAA005C53E9 /* ChatViewController.m in Sources */,
-				CAE98FCF251E1DF1005C53E9 /* PersonalViewController.m in Sources */,
+				CAE98FC5251E1DAA005C53E9 /* HSChatViewController.m in Sources */,
+				CAE98FCF251E1DF1005C53E9 /* HSPersonalViewController.m in Sources */,
 				181485A6251B8FFB00FBD4C6 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

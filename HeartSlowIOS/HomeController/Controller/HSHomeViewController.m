@@ -6,13 +6,13 @@
 //  Copyright © 2020 Eileenjiang. All rights reserved.
 //
 
-#import "HomeViewController.h"
+#import "HSHomeViewController.h"
 
-@interface HomeViewController ()
+@interface HSHomeViewController ()
 
 @end
 
-@implementation HomeViewController
+@implementation HSHomeViewController
 
 - (instancetype)init
 {

@@ -6,13 +6,13 @@
 //  Copyright © 2020 Eileenjiang. All rights reserved.
 //
 
-#import "PersonalViewController.h"
+#import "HSPersonalViewController.h"
 
-@interface PersonalViewController ()
+@interface HSPersonalViewController ()
 
 @end
 
-@implementation PersonalViewController
+@implementation HSPersonalViewController
 
 - (instancetype)init
 {
