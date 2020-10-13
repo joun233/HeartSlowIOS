@@ -10,7 +10,14 @@ Pods/
 
 ## Build generated
 build/
+buildResult/
+buildResult.zip
 DerivedData/
+*.build/
+XCBuildData/
+SharedPrecompiledHeaders/
+Sources_/
+epc/
 
 ## Various settings
 *.pbxuser
@@ -27,9 +34,18 @@ xcuserdata/
 *.moved-aside
 *.xcuserstate
 *.xccheckout
+*.xcscmblueprint
 
 ## Obj-C/Swift specific
 *.hmap
 *.ipa
 *.dSYM.zip
 *.dSYM
+
+## Pods
+Pods
+/Pods
+*.xcworkspace
+!default.xcworkspace
+*.xcscheme
+Carthage/Build
