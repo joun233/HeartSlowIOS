@@ -1,5 +1,5 @@
 //
-//  FindViewController.h
+//  PersonalViewController.h
 //  HeartSlowIOS
 //
 //  Created by eileenjiang(姜楠) on 2020/9/25.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface HSFindViewController : UIViewController
+@interface JHSPersonalViewController : UIViewController
 
 @end
 

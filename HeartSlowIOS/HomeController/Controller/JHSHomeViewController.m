@@ -6,16 +6,15 @@
 //  Copyright © 2020 Eileenjiang. All rights reserved.
 //
 
-#import "HSHomeViewController.h"
+#import "JHSHomeViewController.h"
 
-@interface HSHomeViewController ()
+@interface JHSHomeViewController ()
 
 @end
 
-@implementation HSHomeViewController
+@implementation JHSHomeViewController
 
-- (instancetype)init
-{
+- (instancetype)init {
     self = [super init];
     if (self) {
         self.tabBarItem.title = @"首页";

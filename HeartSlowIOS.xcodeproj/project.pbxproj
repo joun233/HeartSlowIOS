@@ -17,12 +17,12 @@
 		181485BE251B8FFE00FBD4C6 /* HeartSlowIOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 181485BD251B8FFE00FBD4C6 /* HeartSlowIOSTests.m */; };
 		181485C9251B8FFE00FBD4C6 /* HeartSlowIOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 181485C8251B8FFE00FBD4C6 /* HeartSlowIOSUITests.m */; };
 		70C0DF40984D9729D67C1DD8 /* libPods-HeartSlowIOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E816A01046C12D070F6AF432 /* libPods-HeartSlowIOS.a */; };
-		CAE98FAC251E158D005C53E9 /* HSHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE98FAB251E158D005C53E9 /* HSHomeViewController.m */; };
+		CAE98FAC251E158D005C53E9 /* JHSHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE98FAB251E158D005C53E9 /* JHSHomeViewController.m */; };
 		CAE98FB7251E1923005C53E9 /* icon.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CAE98FB6251E1923005C53E9 /* icon.bundle */; };
-		CAE98FBE251E1D78005C53E9 /* HSFindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE98FBD251E1D78005C53E9 /* HSFindViewController.m */; };
-		CAE98FC5251E1DAA005C53E9 /* HSChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE98FC4251E1DAA005C53E9 /* HSChatViewController.m */; };
-		CAE98FCF251E1DF1005C53E9 /* HSPersonalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE98FCE251E1DF1005C53E9 /* HSPersonalViewController.m */; };
-		CAE98FE825203DCF005C53E9 /* HSWebViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE98FE725203DCF005C53E9 /* HSWebViewViewController.m */; };
+		CAE98FBE251E1D78005C53E9 /* JHSFindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE98FBD251E1D78005C53E9 /* JHSFindViewController.m */; };
+		CAE98FC5251E1DAA005C53E9 /* JHSChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE98FC4251E1DAA005C53E9 /* JHSChatViewController.m */; };
+		CAE98FCF251E1DF1005C53E9 /* JHSPersonalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE98FCE251E1DF1005C53E9 /* JHSPersonalViewController.m */; };
+		CAE98FE825203DCF005C53E9 /* JHSWebViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE98FE725203DCF005C53E9 /* JHSWebViewViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,17 +63,17 @@
 		181485C8251B8FFE00FBD4C6 /* HeartSlowIOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeartSlowIOSUITests.m; sourceTree = "<group>"; };
 		181485CA251B8FFE00FBD4C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C2181F46007DCBA1E5C760B /* Pods-HeartSlowIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeartSlowIOS.release.xcconfig"; path = "Target Support Files/Pods-HeartSlowIOS/Pods-HeartSlowIOS.release.xcconfig"; sourceTree = "<group>"; };
-		CAE98FAA251E158D005C53E9 /* HSHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSHomeViewController.h; sourceTree = "<group>"; };
-		CAE98FAB251E158D005C53E9 /* HSHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSHomeViewController.m; sourceTree = "<group>"; };
+		CAE98FAA251E158D005C53E9 /* JHSHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHSHomeViewController.h; sourceTree = "<group>"; };
+		CAE98FAB251E158D005C53E9 /* JHSHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHSHomeViewController.m; sourceTree = "<group>"; };
 		CAE98FB6251E1923005C53E9 /* icon.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = icon.bundle; sourceTree = "<group>"; };
-		CAE98FBC251E1D78005C53E9 /* HSFindViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSFindViewController.h; sourceTree = "<group>"; };
-		CAE98FBD251E1D78005C53E9 /* HSFindViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSFindViewController.m; sourceTree = "<group>"; };
-		CAE98FC3251E1DAA005C53E9 /* HSChatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSChatViewController.h; sourceTree = "<group>"; };
-		CAE98FC4251E1DAA005C53E9 /* HSChatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSChatViewController.m; sourceTree = "<group>"; };
-		CAE98FCD251E1DF1005C53E9 /* HSPersonalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSPersonalViewController.h; sourceTree = "<group>"; };
-		CAE98FCE251E1DF1005C53E9 /* HSPersonalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSPersonalViewController.m; sourceTree = "<group>"; };
-		CAE98FE625203DCF005C53E9 /* HSWebViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSWebViewViewController.h; sourceTree = "<group>"; };
-		CAE98FE725203DCF005C53E9 /* HSWebViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSWebViewViewController.m; sourceTree = "<group>"; };
+		CAE98FBC251E1D78005C53E9 /* JHSFindViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHSFindViewController.h; sourceTree = "<group>"; };
+		CAE98FBD251E1D78005C53E9 /* JHSFindViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHSFindViewController.m; sourceTree = "<group>"; };
+		CAE98FC3251E1DAA005C53E9 /* JHSChatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHSChatViewController.h; sourceTree = "<group>"; };
+		CAE98FC4251E1DAA005C53E9 /* JHSChatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHSChatViewController.m; sourceTree = "<group>"; };
+		CAE98FCD251E1DF1005C53E9 /* JHSPersonalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHSPersonalViewController.h; sourceTree = "<group>"; };
+		CAE98FCE251E1DF1005C53E9 /* JHSPersonalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHSPersonalViewController.m; sourceTree = "<group>"; };
+		CAE98FE625203DCF005C53E9 /* JHSWebViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHSWebViewViewController.h; sourceTree = "<group>"; };
+		CAE98FE725203DCF005C53E9 /* JHSWebViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHSWebViewViewController.m; sourceTree = "<group>"; };
 		E816A01046C12D070F6AF432 /* libPods-HeartSlowIOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HeartSlowIOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -109,7 +109,6 @@
 				0DF7A5AD4EB71170867D1F61 /* Pods-HeartSlowIOS.debug.xcconfig */,
 				3C2181F46007DCBA1E5C760B /* Pods-HeartSlowIOS.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,8 +212,8 @@
 		CAE98FA9251E14FE005C53E9 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				CAE98FAA251E158D005C53E9 /* HSHomeViewController.h */,
-				CAE98FAB251E158D005C53E9 /* HSHomeViewController.m */,
+				CAE98FAA251E158D005C53E9 /* JHSHomeViewController.h */,
+				CAE98FAB251E158D005C53E9 /* JHSHomeViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -222,8 +221,8 @@
 		CAE98FBB251E1D55005C53E9 /* FindController */ = {
 			isa = PBXGroup;
 			children = (
-				CAE98FBC251E1D78005C53E9 /* HSFindViewController.h */,
-				CAE98FBD251E1D78005C53E9 /* HSFindViewController.m */,
+				CAE98FBC251E1D78005C53E9 /* JHSFindViewController.h */,
+				CAE98FBD251E1D78005C53E9 /* JHSFindViewController.m */,
 			);
 			path = FindController;
 			sourceTree = "<group>";
@@ -231,8 +230,8 @@
 		CAE98FC2251E1D94005C53E9 /* ChatController */ = {
 			isa = PBXGroup;
 			children = (
-				CAE98FC3251E1DAA005C53E9 /* HSChatViewController.h */,
-				CAE98FC4251E1DAA005C53E9 /* HSChatViewController.m */,
+				CAE98FC3251E1DAA005C53E9 /* JHSChatViewController.h */,
+				CAE98FC4251E1DAA005C53E9 /* JHSChatViewController.m */,
 			);
 			path = ChatController;
 			sourceTree = "<group>";
@@ -240,8 +239,8 @@
 		CAE98FCC251E1DBA005C53E9 /* PersonalController */ = {
 			isa = PBXGroup;
 			children = (
-				CAE98FCD251E1DF1005C53E9 /* HSPersonalViewController.h */,
-				CAE98FCE251E1DF1005C53E9 /* HSPersonalViewController.m */,
+				CAE98FCD251E1DF1005C53E9 /* JHSPersonalViewController.h */,
+				CAE98FCE251E1DF1005C53E9 /* JHSPersonalViewController.m */,
 			);
 			path = PersonalController;
 			sourceTree = "<group>";
@@ -249,8 +248,8 @@
 		CAE98FE525203D9E005C53E9 /* webview */ = {
 			isa = PBXGroup;
 			children = (
-				CAE98FE625203DCF005C53E9 /* HSWebViewViewController.h */,
-				CAE98FE725203DCF005C53E9 /* HSWebViewViewController.m */,
+				CAE98FE625203DCF005C53E9 /* JHSWebViewViewController.h */,
+				CAE98FE725203DCF005C53E9 /* JHSWebViewViewController.m */,
 			);
 			path = webview;
 			sourceTree = "<group>";
@@ -419,14 +418,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAE98FAC251E158D005C53E9 /* HSHomeViewController.m in Sources */,
+				CAE98FAC251E158D005C53E9 /* JHSHomeViewController.m in Sources */,
 				181485A9251B8FFB00FBD4C6 /* ViewController.m in Sources */,
 				181485A3251B8FFB00FBD4C6 /* AppDelegate.m in Sources */,
-				CAE98FBE251E1D78005C53E9 /* HSFindViewController.m in Sources */,
+				CAE98FBE251E1D78005C53E9 /* JHSFindViewController.m in Sources */,
 				181485B4251B8FFD00FBD4C6 /* main.m in Sources */,
-				CAE98FC5251E1DAA005C53E9 /* HSChatViewController.m in Sources */,
-				CAE98FCF251E1DF1005C53E9 /* HSPersonalViewController.m in Sources */,
-				CAE98FE825203DCF005C53E9 /* HSWebViewViewController.m in Sources */,
+				CAE98FC5251E1DAA005C53E9 /* JHSChatViewController.m in Sources */,
+				CAE98FCF251E1DF1005C53E9 /* JHSPersonalViewController.m in Sources */,
+				CAE98FE825203DCF005C53E9 /* JHSWebViewViewController.m in Sources */,
 				181485A6251B8FFB00FBD4C6 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,8 +1,8 @@
 #import "SceneDelegate.h"
-#import "HSHomeViewController.h"
-#import "HSFindViewController.h"
-#import "HSChatViewController.h"
-#import "HSPersonalViewController.h"
+#import "JHSHomeViewController.h"
+#import "JHSFindViewController.h"
+#import "JHSChatViewController.h"
+#import "JHSPersonalViewController.h"
 @interface SceneDelegate ()<UITabBarControllerDelegate>
 
 @end
@@ -14,10 +14,10 @@
     self.window = [[UIWindow alloc] initWithWindowScene:(UIWindowScene *)scene];
     
     UITabBarController *tabbarController = [[UITabBarController alloc] init];
-    HSHomeViewController *homeViewController = [[HSHomeViewController alloc] init];
-    HSFindViewController *findViewController = [[HSFindViewController alloc] init];
-    HSChatViewController *chatViewController = [[HSChatViewController alloc] init];
-    HSPersonalViewController *personalViewController = [[HSPersonalViewController alloc] init];
+    JHSHomeViewController *homeViewController = [[JHSHomeViewController alloc] init];
+    JHSFindViewController *findViewController = [[JHSFindViewController alloc] init];
+    JHSChatViewController *chatViewController = [[JHSChatViewController alloc] init];
+    JHSPersonalViewController *personalViewController = [[JHSPersonalViewController alloc] init];
     [tabbarController setViewControllers:@[homeViewController, findViewController, chatViewController, personalViewController]];
     
     self.window.rootViewController = tabbarController;
