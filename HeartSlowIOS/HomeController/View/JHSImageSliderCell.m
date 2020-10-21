@@ -1,5 +1,5 @@
 //
-//  LPCarouselViewCell.m
+//  JHSImageSliderCell.m
 //  HeartSlowIOS
 //
 //  Created by eileenjiang(姜楠) on 2020/10/14.

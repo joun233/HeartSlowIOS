@@ -23,6 +23,8 @@
 		CAE98FC5251E1DAA005C53E9 /* JHSChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE98FC4251E1DAA005C53E9 /* JHSChatViewController.m */; };
 		CAE98FCF251E1DF1005C53E9 /* JHSPersonalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE98FCE251E1DF1005C53E9 /* JHSPersonalViewController.m */; };
 		CAE98FE825203DCF005C53E9 /* JHSWebViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE98FE725203DCF005C53E9 /* JHSWebViewViewController.m */; };
+		CAF1315D253FDB5000D4557E /* JHSImageSliderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF1315C253FDB5000D4557E /* JHSImageSliderCell.m */; };
+		CAF13163253FDBCD00D4557E /* JHSImageSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF13162253FDBCD00D4557E /* JHSImageSliderView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +76,10 @@
 		CAE98FCE251E1DF1005C53E9 /* JHSPersonalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHSPersonalViewController.m; sourceTree = "<group>"; };
 		CAE98FE625203DCF005C53E9 /* JHSWebViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHSWebViewViewController.h; sourceTree = "<group>"; };
 		CAE98FE725203DCF005C53E9 /* JHSWebViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHSWebViewViewController.m; sourceTree = "<group>"; };
+		CAF1315B253FDB4F00D4557E /* JHSImageSliderCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHSImageSliderCell.h; sourceTree = "<group>"; };
+		CAF1315C253FDB5000D4557E /* JHSImageSliderCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHSImageSliderCell.m; sourceTree = "<group>"; };
+		CAF13161253FDBCD00D4557E /* JHSImageSliderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHSImageSliderView.h; sourceTree = "<group>"; };
+		CAF13162253FDBCD00D4557E /* JHSImageSliderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHSImageSliderView.m; sourceTree = "<group>"; };
 		E816A01046C12D070F6AF432 /* libPods-HeartSlowIOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HeartSlowIOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -198,6 +204,10 @@
 		CAE98FA7251E14D9005C53E9 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CAF1315B253FDB4F00D4557E /* JHSImageSliderCell.h */,
+				CAF1315C253FDB5000D4557E /* JHSImageSliderCell.m */,
+				CAF13161253FDBCD00D4557E /* JHSImageSliderView.h */,
+				CAF13162253FDBCD00D4557E /* JHSImageSliderView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -418,8 +428,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAF13163253FDBCD00D4557E /* JHSImageSliderView.m in Sources */,
 				CAE98FAC251E158D005C53E9 /* JHSHomeViewController.m in Sources */,
 				181485A9251B8FFB00FBD4C6 /* ViewController.m in Sources */,
+				CAF1315D253FDB5000D4557E /* JHSImageSliderCell.m in Sources */,
 				181485A3251B8FFB00FBD4C6 /* AppDelegate.m in Sources */,
 				CAE98FBE251E1D78005C53E9 /* JHSFindViewController.m in Sources */,
 				181485B4251B8FFD00FBD4C6 /* main.m in Sources */,

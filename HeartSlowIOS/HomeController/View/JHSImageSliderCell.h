@@ -1,8 +1,8 @@
 //
-//  LPCarouselViewCell.h
+//  JHSImageSliderCell.h
 //  HeartSlowIOS
 //
-//  Created by eileenjiang(姜楠) on 2020/10/14.
+//  Created by eileenjiang(姜楠) on 2020/10/21.
 //  Copyright © 2020 Eileenjiang. All rights reserved.
 //
 
